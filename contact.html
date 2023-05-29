@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<header>
+    <h1><img src="images/logo.png" alt="logo"  height="80px"> Vend-O-Bot</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Our Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form  action="process_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Comment:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 www.vend-o-bot.com.  All rights reserved.</p>
+    </footer>
+</body>
+</html>

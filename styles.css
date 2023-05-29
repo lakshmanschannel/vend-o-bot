@@ -1,0 +1,98 @@
+body {
+    color: #fff;
+    background-color: #006747FF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E95c20FF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #472C1DFF;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    background-color: whitesmoke;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #472C1DFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#OPP{
+
+background-color: whitesmoke;
+color: black;
+padding :20px;
+}
+#UP{
+
+    background-color: whitesmoke;
+    color: black;
+    padding :20px;
+    }
+    
+    .button {
+       
+        color: black;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .button:hover{
+        background-color:#E95c20FF ;
+      }
+      
+.container {
+    color: black;
+    background-color: whitesmoke;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
